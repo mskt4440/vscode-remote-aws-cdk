@@ -1,0 +1,9 @@
+version: '3'
+services:
+  dev:
+    build:
+      context: .
+    volumes:
+      - ~/.aws:/home/node/.aws
+      - ..:/workspace:cached
+    command: sleep infinity

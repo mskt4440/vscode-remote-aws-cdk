@@ -1,0 +1,7 @@
+{
+    "aws.telemetry": false,
+    "aws.profile": "",
+    "aws.suppressPrompts": {
+        "createCredentialsProfile": true
+    }
+}
