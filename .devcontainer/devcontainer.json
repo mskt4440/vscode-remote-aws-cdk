@@ -9,7 +9,6 @@
     "extensions": [
         "AmazonWebServices.aws-toolkit-vscode"
     ],
-    "remoteUser": "node",
     "remoteEnv": {
         "AWS_PROFILE": "SET_YOUR_PROFILE"
     }

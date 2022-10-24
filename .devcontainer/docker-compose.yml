@@ -4,6 +4,6 @@ services:
     build:
       context: .
     volumes:
-      - ~/.aws:/home/node/.aws
+      - ~/.aws:/home/root/.aws
       - ..:/workspace:cached
     command: sleep infinity
